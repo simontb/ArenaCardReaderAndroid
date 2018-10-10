@@ -14,7 +14,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".ScanCardActivity" android:screenOrientation="portrait">
+        <activity
+            android:name=".ScanCardActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -22,11 +24,14 @@
             <intent-filter>
                 <action android:name="android.nfc.action.TECH_DISCOVERED" />
             </intent-filter>
+
             <meta-data
                 android:name="android.nfc.action.TECH_DISCOVERED"
                 android:resource="@xml/card_tech_filter" />
         </activity>
-        <activity android:name=".CardBalanceActivity" />
+        <activity
+            android:name=".CardBalanceActivity"
+            android:parentActivityName=".ScanCardActivity" />
     </application>
 
 </manifest>
