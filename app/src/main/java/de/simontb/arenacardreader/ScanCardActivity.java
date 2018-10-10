@@ -25,7 +25,7 @@ public class ScanCardActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_card_reader);
+        setContentView(R.layout.activity_scan_card);
         handleCardNumberInput();
         handleCardScanViaNfc();
     }

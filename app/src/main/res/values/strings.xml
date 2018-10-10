@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">ArenaCard Reader</string>
+    <string name="scan_or_enter_card_label">Hold your ArenaCard to the NFC reader or enter the card number:</string>
     <string name="balance_title">Your ArenaCard Balance</string>
     <string name="card_number_label">Card number:\u0020</string>
 </resources>
