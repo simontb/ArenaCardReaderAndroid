@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ArenaCard Reader</string>
+    <string name="balance_title">Your ArenaCard Balance</string>
+    <string name="card_number_label">Card number:\u0020</string>
 </resources>
